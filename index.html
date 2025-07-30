@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virtual Hug Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+
+        <button id="hugBtn">Load Virtual Hug</button>
+
+        <div id="loadingSection" class="hidden">
+            <div id="flavorText"></div>
+            <div class="progress-bar">
+                <div id="barFill"></div>
+            </div>
+        </div>
+
+        <div id="hugSection" class="hidden">
+            <p>Hug Loaded!</p>
+            <img src="hug.gif" alt="Virtual Hug" />
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
